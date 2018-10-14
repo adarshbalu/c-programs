@@ -3,10 +3,10 @@
 void main()
 {
 	clrscr();
-	int a,b,diff;
-	printf("Enter two numbers ");
+	int a,b,sum;
+	printf("Enter two numbers");
 	scanf("%d%d",&a,&b);
-	diff=a-b;
-	printf("The diffrence is %d ",diff);
+	sum=a+b;
+	printf("The sum is %d",sum);
 	getch();
 }
