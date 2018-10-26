@@ -8,6 +8,6 @@ void main()
 	scanf("%d",&n);
 	for(i=1;i<=n;i++)
 		f=f*i;
-	printf("\nThe factorial is : %d",f);
+	printf("\nThe factorial : %d",f);
 	getch();
 }
